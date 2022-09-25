@@ -76,6 +76,7 @@ textarea {
 .contact-form {
   margin-bottom: 5rem;
 }
+/************************************************************* FLECHA SUBIR, SALE DEL MENU*/
 .flecha {
   background-color: transparent;
   color: var(--color_principal);

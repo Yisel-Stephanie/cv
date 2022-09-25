@@ -19,13 +19,16 @@ header p {
 .col-main {
   width: 80%;
 }
-/************************************************************* FLECHA SUBIR*/
-.flecha-subir {
+/************************FLECHA OCULTAR*/
+
+.flecha-subir,
+.flecha-volver {
   position: fixed;
   bottom: 0;
-  right: 40px;
+  right: 0;
   font-size: 40px;
 }
+
 /************************************************************* SKILLS*/
 .col-hard {
   width: 45%;

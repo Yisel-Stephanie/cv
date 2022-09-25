@@ -17,12 +17,15 @@ header p {
 .text-nav {
   display: none;
 }
-/************************************************************* FLECHA SUBIR, SALE DEL MENU*/
-.flecha-subir {
+/**FLECHA ***/
+.flecha-subir,
+.flecha-volver {
   position: fixed;
   bottom: 0;
   right: 0;
+  font-size: 40px;
 }
+
 /************************************************************* SKILLS*/
 #skills ul li {
   padding-bottom: 1rem;

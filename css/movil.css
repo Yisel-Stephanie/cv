@@ -28,6 +28,13 @@ body {
 .col-nav ul li a {
   color: var(--color_principal);
 }
+/*********************FLECHA VOLVER*/
+.flecha-volver {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  font-size: 40px;
+}
 
 /************************************************************* SKILLS*/
 .col li {
