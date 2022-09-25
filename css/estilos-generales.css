@@ -17,10 +17,11 @@ header {
 }
 header p {
   position: absolute;
-  top: 40%;
-  left: 35%;
-  font-size: 1.2rem;
+  top: 20%;
+  left: 40%;
+  text-align: end;
   color: #fff;
+  padding-right: 10px;
 }
 a {
   text-decoration: none;
