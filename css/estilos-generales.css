@@ -49,6 +49,12 @@ textarea {
   resize: vertical;
 }
 
+/**********TABLA*/
+.tabla {
+  width: 80vw;
+  border-collapse: separate;
+  border-spacing: 16px;
+}
 .btn-basico {
   display: block;
   width: 100px;
