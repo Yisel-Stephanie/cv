@@ -133,7 +133,7 @@ textarea {
 }
 
 .multimedia video {
-  width: 45%;
+  max-width: 45%;
 }
 
 .polaroid {
