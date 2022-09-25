@@ -23,6 +23,11 @@ header p {
   color: #fff;
   padding-right: 10px;
 }
+.imagen_perfil {
+  border-radius: 50%;
+  width: 100px;
+  margin: 0.5rem;
+}
 a {
   text-decoration: none;
   color: #000;
@@ -104,6 +109,13 @@ textarea {
 .field:focus {
   color: var(--color_principal);
   border-bottom: 1px solid var(--color_principal);
+}
+
+.icon-datos-personales {
+  width: 19px;
+}
+#datos_personales ul li {
+  display: block;
 }
 
 /********************************************************** PAGINA DE GALERIA*/
