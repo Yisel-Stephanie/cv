@@ -1,0 +1,129 @@
+/*GENERALES*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+:root {
+  --color_principal: #0f68a7;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  background-image: url("/imagenes/banner.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+}
+header p {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  font-size: 1.2rem;
+  color: #fff;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+li {
+  list-style: none;
+}
+h2 {
+  padding: 1rem 0;
+  color: var(--color_principal);
+}
+h3 {
+  text-decoration: underline;
+  font-weight: 300;
+  margin: 10px 0;
+}
+:target {
+  padding: 0 0.5rem;
+  box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.2);
+}
+section {
+  margin: 1rem;
+}
+textarea {
+  resize: vertical;
+}
+
+.btn-basico {
+  display: block;
+  width: 100px;
+  text-align: center;
+  margin: 1rem auto;
+  padding: 0.5rem;
+  background-color: #000;
+  color: #fff;
+  font-size: 20px;
+}
+
+.btn-basico:hover {
+  background-color: var(--color_principal);
+}
+.btn-form {
+  width: 100%;
+}
+.contact-form {
+  margin-bottom: 5rem;
+}
+.flecha {
+  background-color: transparent;
+  color: var(--color_principal);
+}
+
+.flecha:hover {
+  color: #000;
+}
+
+/**********************************************************FORMULARIO CONTACTO*/
+.field {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: transparent;
+  outline: none;
+}
+.field:focus {
+  color: var(--color_principal);
+  border-bottom: 1px solid var(--color_principal);
+}
+
+/********************************************************** PAGINA DE GALERIA*/
+.multimedia {
+  text-align: center;
+}
+
+.multimedia img,
+.multimedia video {
+  margin: 10px;
+}
+
+.multimedia img:hover {
+  transform: rotate(0deg);
+}
+
+.multimedia video {
+  width: 45%;
+}
+
+.polaroid {
+  background-color: white;
+  padding: 10px 10px 50px 10px;
+  border: 1px solid #bfbfbf;
+
+  box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.2);
+}
+.d1 {
+  transform: rotate(5deg);
+}
+
+.d2 {
+  transform: rotate(-5deg);
+}
+
+.d3 {
+  transform: rotate(3deg);
+}

@@ -1,0 +1,5 @@
+@import url("estilos-generales.css");
+@import url("carrusel.css");
+@import url("movil.css") screen and (max-width: 600px);
+@import url("tablet.css") screen and (min-width: 601px) and (max-width: 825px);
+@import url("pc.css") screen and (min-width: 826px);

@@ -1,0 +1,25 @@
+/************************************************************* NAVEGACION*/
+.col-nav {
+  text-align: center;
+}
+.col-nav ul li {
+  display: inline-block;
+  margin: 10px 16px;
+}
+.col-nav ul li a i {
+  font-size: 40px;
+}
+.text-nav {
+  display: none;
+}
+/************************************************************* FLECHA SUBIR, SALE DEL MENU*/
+.flecha-subir {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+/************************************************************* SKILLS*/
+#skills ul li {
+  padding-bottom: 1rem;
+  display: inline-block;
+}

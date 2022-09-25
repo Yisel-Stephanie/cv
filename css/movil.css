@@ -1,0 +1,36 @@
+/************************************************************* NAVEGACION*/
+body {
+  font-size: 0.8rem;
+}
+.text-nav {
+  display: none;
+}
+.col-nav {
+  background-color: rgb(221, 216, 216);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.col-nav i {
+  font-size: 2rem;
+}
+.col-nav ul li {
+  display: inline-block;
+  margin: 0.8rem;
+}
+.col-nav ul li a {
+  color: var(--color_principal);
+}
+
+/************************************************************* SKILLS*/
+.col li {
+  display: inline-block;
+}
+
+/******************************************************* PROYECTOS  CARRUSEL LIBRERIA FANCY*/
+
+/********************************************************** FOOTER DATOS PERSONALES*/
+#datos_personales ul li {
+  line-height: 1rem;
+}
